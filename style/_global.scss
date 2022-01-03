@@ -1,0 +1,28 @@
+@import 'variables';
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    font-size: 14px;
+    overflow-x: hidden;
+    font-family: $spartan;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.text{
+    color: $Dark-Gray;
+    font-size: .9em;
+}
